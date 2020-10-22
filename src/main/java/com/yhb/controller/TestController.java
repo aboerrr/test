@@ -25,6 +25,7 @@ public class TestController {
     public List<Map<String,Object>> sentToWeb(@RequestBody JSONObject jsonObject){
 
         System.out.println("adfasdfsd");
+        System.out.println("test1");
 
         List<Vo> vo = jsonObject.getJSONArray("vo").toJavaList(Vo.class);
         Map<String, Object> map;
